@@ -13,10 +13,10 @@
       </bpmn2:extensionElements>
       <bpmn2:outgoing>SequenceFlow_1</bpmn2:outgoing>
     </bpmn2:startEvent>
-    <bpmn2:userTask id="UserTask_1" name="UserTask1">
+    <bpmn2:userTask id="UserTask_1" name="UserTask_1">
       <bpmn2:extensionElements>
         <tns:metaData name="elementname">
-          <tns:metaValue><![CDATA[UserTask1]]></tns:metaValue>
+          <tns:metaValue><![CDATA[UserTask_1]]></tns:metaValue>
         </tns:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>SequenceFlow_1</bpmn2:incoming>
@@ -186,7 +186,7 @@
       <bpmndi:BPMNShape id="BPMNShape_UserTask_1" bpmnElement="UserTask_1" isExpanded="true">
         <dc:Bounds height="50.0" width="110.0" x="291.0" y="163.0"/>
         <bpmndi:BPMNLabel>
-          <dc:Bounds height="21.0" width="88.0" x="302.0" y="177.0"/>
+          <dc:Bounds height="21.0" width="98.0" x="297.0" y="177.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_UserTask_2" bpmnElement="UserTask_2" isExpanded="true">
